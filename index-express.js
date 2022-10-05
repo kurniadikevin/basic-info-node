@@ -9,5 +9,5 @@ const port = 8080;
 app.use(express.static('public'));
 
 app.listen(port,()=>{
-    console.log('Now listen to port'+ port);
+    console.log('Open the port is'+ port);
 })
